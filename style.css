@@ -19,6 +19,7 @@ header{
 	padding-top:10px;
 	padding-bottom: 10px;
 	height:80px;
+	
 }
 header img{
 	float:left;
@@ -72,6 +73,11 @@ aside header{
 
 footer{
 	clear: both;
+	padding-left: 20px;
+	background-color: #F2F2F2;
+	border-radius:5px; 
+	border: 1px solid #DEDCD9;
+
 }
 footer ul{
 	float:right;
