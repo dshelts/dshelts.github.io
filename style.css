@@ -23,7 +23,10 @@ body{
 	height:auto;
 	width:300px;
 }
-
+#Logo{
+	height:50px;
+	width:250px;
+}
 
 header{
 	padding-top:10px;
