@@ -8,6 +8,6 @@ The webpage uses the bootstrap framework to display the information. In it's cur
 If you want to run this and play with it on your own machine. You will need the following files.
 index.html
 carousel.css
-bootstrap/* 
+bootstrap/ * 
 
 -dshelts	
