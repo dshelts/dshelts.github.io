@@ -1,24 +1,12 @@
 
 #featurette-background{
-  background-color: #f9fbc6;
+  background-color: #cccccc;
   border:2px solid;
   border-radius: 45px;
   color: black;
 }
 
-#button-color-grey{
-  background-color: grey;
-  border:1px solid white;
-}
-#button-color-green{
-  background-color: green;
-  border: 1px solid white; 
-}
-#button-color-2{
-  background-color: #6de1bb;
-  border: 1px solid black;
-  color:black;
-}
+
 #header-adjustment{
   text-align:center;
 
@@ -26,5 +14,9 @@
 
 #jumbo1-bg{
   background-color: #004877;
-  border-radius: 5px; 
+  border-radius: 1px; 
+  border-color: black;
+}
+#color-me-blue{
+  background-color: #004877;
 }
