@@ -13,3 +13,14 @@
 	text-align: left;
 	margin-top: 1em;
 }
+
+.contact-container{
+	padding: 5px;
+	text-align: center;
+}
+
+.contact-text{
+	max-width: 330px;
+	margin: 0px auto;
+
+}
