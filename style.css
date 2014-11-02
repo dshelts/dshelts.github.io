@@ -9,7 +9,6 @@
 }
 
 .main-bubbles{
-	text-align: center;
 	margin-bottom: 50px;
 
 }
@@ -17,9 +16,10 @@
 	padding-left: 35px;
 	padding-right: 35px;
 	font-size: 25px;
+	text-align:left;
 }
-#dropdown-center{
-	margin-left: 215px;
+.adjust-dropdown{
+	text-align: center;
 }
 html { 
   background: url(images/bg.jpg) no-repeat center center fixed; 
