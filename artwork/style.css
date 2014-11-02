@@ -1,12 +1,12 @@
 html { 
-  background: url(/images/bg.jpg) no-repeat center center fixed; 
+  background: url(/images/bg2.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 body{
-	color:white;
+	color:black;
 }
 
 .art-box{
@@ -14,4 +14,5 @@ body{
 	margin-bottom:10px;
 	padding: 15px;
 	text-align: center;
+	font-size: 25px;
 }
