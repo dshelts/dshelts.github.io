@@ -1,5 +1,5 @@
 .textcolor-white{
-	color: black;
+	color: white;
 }
 #adjust-container{
 	margin-top: 200px;
@@ -21,7 +21,7 @@
 }
 
 html { 
-  background: url(images/bg2.JPG) no-repeat center center fixed; 
+  background: url(images/bg.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
