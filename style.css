@@ -1,12 +1,6 @@
+
 .textcolor-white{
 	color: white;
-}
-
-#adjust-container{
-	margin-top: 200px;
-	padding: 25px;
-	margin-bottom: 200px;
-	background-color:none;
 }
 
 .main-bubbles{
@@ -23,11 +17,20 @@
 .shift-down{
 	padding-top: 55px;
 }
+
 #resize-me{
 	font-size: 18px;
 	text-align: left;
 	padding-left: 0px;
 }
+
+#adjust-container{
+	margin-top: 200px;
+	padding: 25px;
+	margin-bottom: 200px;
+	background-color:none;
+}
+
 html { 
   background: url(images/bg.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
