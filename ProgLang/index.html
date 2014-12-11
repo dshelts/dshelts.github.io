@@ -44,18 +44,35 @@
         <q>When a user requests a website if there is JavaScript as part of the site the script is sent to the browser to do something with it.</q>
     </div>
     <div class="step" data-x="0" data-y="1000" data-z="0">
-        <q id="fancy"><b><a href="http://www.imaginarytraffic.com/JSExamples">Examples of JS</b></q>
+        <q id="fancy"><b>Examples of JS</b></q>
+    </div>
+    
+    <div class="step" data-x="-500" data-y="1500" data-z="0">
+        <div>
+            <button onclick="alertClick();">Alert Button</button>
+            <button onclick="eventClick(event);">Event information</button>  
+        </div>
+         <div>
+            <p>This is a paragraph written in html</p>
+            <p id="demo"></p>
+      </div>
     </div>
 
-    <div class="step" data-x="-500" data-y="1500" data-z="0">
+    <div class="step" data-x="1000" data-y="1500" data-z="0">
+         <img src="/images/source1.png" alt="source1"> <img src="/images/source2.png" alt="source2"><q><p id="subtitle">How this works</p></q>
+    </div>
+
+
+
+    <div class="step" data-x="-1000" data-y="2000" data-z="0">
       <q>So who made JavaScript?</q>
       <q><p id="subtitle"> JavaScript was built in 10 days by Brendan Eich in May of 1995. Originally called Mocha.</p></q>
     </div>
-    <div class="step" data-x="500" data-y="1500" data-z="0">
+    <div class="step" data-x="0" data-y="2000" data-z="0">
         <q> A bit of history</q>
         <q><p id="subtitle"> In September of '95 the name changed to Livescript and in December it was offically called Javascript. From '96-'97 Javascript was taken to Ecma To create standard specifications, so that browsers could implement them.</p></q>
     </div>
-   <div class="step" data-x="-1000" data-y="2000" data-z="0">
+   <div class="step" data-x="-1000" data-y="2500" data-z="0">
         <q> What is Ecma?</q>
         <q><p id="subtitle"> Ecma is an institution for standardizing information and communication systems. Their aim is to standardize the use of information communication technologies and consumer electronics.</p></q>
     </div>
@@ -75,7 +92,25 @@ if ("ontouchstart" in document.documentElement) {
 
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
+<script>
+    function alertClick(){
+      alert("This is a basic Alert!")
+    }
 
+    function eventClick(event){
+       var eType = event.type;
+    /* the following is for compatibility */
+    /* Moz populates the target property of the event object */
+    /* IE populates the srcElement property */
+    var eTarget = event.target || event.srcElement;
+
+    alert( "Captured Event (type=" + eType + ", target=" + eTarget + ")" );
+    }
+    
+
+    document.getElementById("demo").innerHTML = "This string was handled by Javascript and placed into the html";
+  
+    </script>
 </body>
 </html>
 
