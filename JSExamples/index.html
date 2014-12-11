@@ -6,21 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>JS Examples</title>
     
-    <body>
-      <div><span onclick="alertClick();">Alert Button</span></div>
 
+
+
+    <body>
+      <div>
+      <button onclick="alertClick();">Alert Button</button>
+      <button onclick="eventClick(event);">Event information</button>  
+      </div>
+      <div>
+        <p>This is a paragraph written in html</p>
+        <button onclick="pClick();">Javascript write example</button>
+        <p id="demo"></p>
+      </div>
+      <div><p>How this works</p></div>
+      <img src="/images/source1.png" alt="source1" ><img src="/images/source2.png" alt="source2">
     </body>
 
 
     <script>
     function alertClick(){
-      alert("this is an alert!");
+      alert("This is a basic Alert!")
     }
 
+    function eventClick(event){
+       var eType = event.type;
+    /* the following is for compatibility */
+    /* Moz populates the target property of the event object */
+    /* IE populates the srcElement property */
+    var eTarget = event.target || event.srcElement;
 
+    alert( "Captured Event (type=" + eType + ", target=" + eTarget + ")" );
+    }
+    function pClick(){
+      document.write("This was written using Javascript. Refresh the page to get back to go back.");
+    }
 
-
+    document.getElementById("demo").innerHTML = "This string was handled by Javascript and placed into the html";
+  
     </script>
+
+
+
+
       <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
